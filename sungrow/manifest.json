@@ -1,0 +1,18 @@
+{
+  "domain": "sungrow",
+  "version": "0.0.1",
+  "name": "SunGrow",
+  "codeowners": ["vhupet"],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "hostname": "target",
+      "macaddress": "002702*"
+    }
+  ],
+  "documentation": "https://github.com/wallento/sungrow-websocket/tree/main",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "loggers": ["sungrow"],
+  "requirements": ["stringcase==1.2.0","sungrow-websocket==0.2.2"]
+}

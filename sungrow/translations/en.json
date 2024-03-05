@@ -1,0 +1,77 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Define the API parameters for this installation",
+        "data": {
+          "name": "The name of this installation",
+          "ip_address": "The IP address of the SunGrow inverter"
+        }
+      }
+    },
+    "error": {
+      "already_configured": "Inverter already configured",
+      "could_not_connect": "Could not connect to the SunGrow inverter",
+      "unexpected_data": "Data received from the inverter is not as expected"
+    },
+    "abort": {
+      "already_configured": "Inverter already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "commonua": {
+        "name": "Voltage AC"
+      },
+      "total_active_power": {
+        "name": "Active power"
+      },
+      "air_tem_inside_machine": {
+        "name": "Temperature"
+      },
+      "total_yield": {
+        "name": "Lifetime energy"
+      },
+      "running_state": {
+        "name": "Inverter mode"
+      },
+      "total_grid_running_time": {
+        "name": "Total running time"
+      },
+      "daily_power_yield": {
+        "name": "Daily power yield"
+      },
+      "bus_voltage": {
+        "name": "Bus voltage"
+      },
+      "square_array_insulation_impedance": {
+        "name": "Array insulation resistance"
+      },
+      "total_dcpower": {
+        "name": "Total DC power"
+      },
+      "total_reactive_power": {
+        "name": "Total reactive power"
+      },
+      "total_apparent_power": {
+        "name": "Total Apparent Power"
+      },
+      "total_power_factor": {
+        "name": "Total Power Factor"
+      },
+      "grid_frequency": {
+        "name": "Grid Frequency"
+      },
+      "fragment_run_type1": {
+        "name": "Phase A Current"
+      },
+      "measuring_point_afd": {
+        "name": "Number of AFCI Faults"
+      },
+      "maximum_apparent_power_siwhfgqy": {
+        "name": "Maximum Apparent Power"
+      }
+    }
+  }
+}
+
