@@ -1,1 +1,1 @@
-# Sungrow-Inverter-Integration-for-Home-Assistant
+# Sungrow Inverter Integration for Home Assistant
