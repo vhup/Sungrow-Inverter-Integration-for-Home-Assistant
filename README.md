@@ -1,6 +1,7 @@
 # Sungrow Inverter Integration for Home Assistant
 
 This repo contains my custom integration for Home Assistant for a mono-phased SunGrow inverter.
+It is based on "sungrow_websocket" (https://github.com/wallento/sungrow-websocket)
 
 ## Installation
 To install it, copy the "sungrow" folder to <home_assistant_config_folder>/custom_components Then restart Home Assistant (just to be sure) and add the "SunGrow" integration.
