@@ -3,6 +3,25 @@
 This repo contains my custom integration for Home Assistant for a mono-phased SunGrow inverter.
 It is based on "sungrow_websocket" (https://github.com/wallento/sungrow-websocket)
 
+It brings the following sensors:
+* Active power
+* Array insulation resistance
+* Bus voltage
+* Daily power yield
+* Grid frequency
+* Inverter mode
+* Lifetime energy
+* Maximum apparent power
+* Number of AFCI faults
+* Phase A current
+*Temperature
+* Total apparent power
+* Total DC power
+* Total power factor
+* Total reactive power
+* Total running time
+* Voltage AC
+  
 ## Installation
 To install it, copy the "sungrow" folder to <home_assistant_config_folder>/custom_components Then restart Home Assistant (just to be sure) and add the "SunGrow" integration.
 
